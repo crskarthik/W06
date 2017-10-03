@@ -1,0 +1,24 @@
+{
+  "name": "m06",
+  "version": "0.0.1",
+  "description": "\"this is a chat program\"",
+  "main": "server.js",
+  "dependencies": {
+      "express": "latest",
+      "socket.io": "latest"    
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chinta Raja Srikar Karthik",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crskarthik/m06.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crskarthik/m06/issues"
+  },
+  "homepage": "https://github.com/crskarthik/m06#readme"
+}
