@@ -1,6 +1,6 @@
 var express = require('express')
 var app = express() // function handler
-//var http = require('http').createServer(app)  // http server
+var http = require('http').createServer(app)  // http server
 
 // Initialize app with route / (the root) "on getting a request to /, do the following"
 app.get('/', function (req, res) {
